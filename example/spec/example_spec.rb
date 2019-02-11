@@ -1,5 +1,9 @@
 require 'order'
 
+if defined? MyRSpec
+  RSpec = MyRSpec
+end
+
 RSpec.describe Order do
   it "sums the prices of its line items" do
     order = Order.new

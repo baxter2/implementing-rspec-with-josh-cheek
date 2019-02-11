@@ -9,5 +9,5 @@ $ bunle exec rspec
 
 Now make your own RSpec, such that this works:
 ```sh
-$ my_rspec
+[example]$ bin/my_rspec
 ```
